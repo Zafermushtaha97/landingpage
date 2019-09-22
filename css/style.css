@@ -1,0 +1,306 @@
+body{
+    margin: 0;
+}
+.navbar-brand img{
+    max-width: 50%;
+}
+header{
+    background-image: url(../img/rectangle-17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%0;0
+    height: 700px;
+    background-position: right bottom;
+}
+header nav{
+    padding: 40px;
+    color: #ffffff;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+ .start{
+    display: flex;
+    justify-content: flex-start;
+
+}
+ul li {
+    list-style: none;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+}
+.header-conent{
+    text-align: center;
+    padding: 121px;
+}
+
+.title-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    padding-top: 280px;*/
+
+}
+.title-header p:nth-child(1){
+    margin: 222.5px 135.5px 0px 135.5px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 300;
+}
+.text-header{
+    text-align: center;
+    padding: 0px 180px 0px 180px;
+
+}
+.text-header p{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px 101px;
+
+}
+.header-conent button{
+    width: 307px;
+    height: 72px;
+   background-color: #325DFF;
+   font-size: 14px;
+   font-family:  'Lato', sans-serif;
+   text-transform: uppercase;
+   color: #ffffff;
+   font-weight: 100;
+   border: 2px solid #ffffff;
+   border-radius: 36px;
+}
+#two{
+    /* display: flex; */
+}
+#two .first{
+    width: 50%;
+    margin-left:82px;
+    margin-top: 82px;
+    padding-right: 85px;
+
+}
+#two .first p:first-child {
+    font-family:  'Lato', sans-serif;
+    font-size:50px;
+    font-weight: 300;
+}
+#two .first p:nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: grey;
+}
+#two .first button{
+    background-color: #325DFF;
+    color: #ffffff;
+    text-transform: capitalize;
+    height: 52px;
+    width: 220px;
+    border-radius: 36px;
+    border:0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+
+    
+}
+/* #two.two{
+
+    width: 50%;
+} */
+#two .two img{
+    width: 674px;
+    height: 601px;
+}
+#three{
+   
+    background-color: #eeeeee;
+    margin-top: -5px;
+    padding:  77px 52px;
+}
+#three .title{
+    /* text-align: center; */
+    padding: 0 20%;
+}
+#three .title p:first-child{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+#three .title p:nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+    font-weight: 300;
+}
+#three .cards{
+    padding: 0 50px;
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-areas: "card card card" "card card card";
+    grid-template-columns: repeat(3, 1fr);
+}
+#three .cards .card{
+    padding: 60px;
+}
+#three .cards .card p:nth-child(2){
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#three .cards .card p:nth-child(3){
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    margin-top: 20px;
+
+}
+#three .cards .card .icon{
+    /* background-color: #325DFF; */
+    width: 80x;
+    height: 80px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 0 35%;
+    border-radius: 50%;
+}
+#four{
+    background-image: url(../img/Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 602px;
+    margin-top: -20px;
+    
+
+}
+/* .play-icon{
+    color: #ffffff;
+} */
+#four .content{
+    /* text-align: center; */
+    padding: 20%;
+}   
+.content p:nth-child(2){
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    margin-top: 35px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.content p:nth-child(3){
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 2;
+
+
+}
+#fife{
+    margin-top: -35px;
+}
+#fife .section-title{
+    background-color: #eeeeee;
+   /* text-align: center; */
+   padding: 22px 25%;
+
+}
+
+#fife .section-title p:nth-child(1){
+    font-family: 'Lato', sans-serif;
+    margin-top: 35px;
+    font-weight: 300;
+    font-size: 30px;
+
+}#fife .section-title p:nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+
+}
+#fife .first-details .text-info{
+    width: 50%;
+    margin-top: 82px;
+    padding-bottom: 60px;
+   
+}
+.text-info p:nth-child(1) {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 100px;
+    padding-right: 65px;
+}
+.text-info p:nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+    padding-left: 100px;
+    padding-right: 65px;
+    line-height: 2;
+}
+#fife .first-details .text-info button{
+    margin-top: 20px;
+    background-color: #325DFF;
+    /* color: #ffffff; */
+    text-transform: capitalize;
+    height: 52px;
+    width: 220px;
+    border-radius: 36px;
+    border:0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 100px;
+}
+#fife .first-details .img-info{
+    /* width: 50%; */
+    background: url(../img/Rectangle\ 10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fife .first-details-2 .img-info{
+    /* width: 50%; */
+    background: url(../img/Rectangle\ 11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#fife .first-details-2 .text-info{
+    /* width: 50%; */
+    padding-bottom: 60px;
+    margin-top: 82px;
+}
+#fife .first-details-2 .text-info button{
+    margin-top: 20px;
+    background-color: #325DFF;
+    color: #ffffff;
+    text-transform: capitalize;
+    height: 52px;
+    width: 220px;
+    border-radius: 36px;
+    border:0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 100px;
+}
+#fife .first-details .img-info-new {
+    width: 50%;
+    background: url(../img/Rectangle\ 14.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
